@@ -52,6 +52,8 @@ export default function decorate(block) {
     }
   });
 
+  block.querySelector('a').classList.add('button');
+
   // Add event listeners to the block
   addEventListeners(block);
 }
